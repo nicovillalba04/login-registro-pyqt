@@ -1,0 +1,13 @@
+# entorno virtual: se reconstruye con requirements.txt
+.venv/
+
+# archivos que genera Python solo
+__pycache__/
+*.pyc
+
+# del sistema operativo
+.DS_Store
+Thumbs.db
+
+# secretos (para cuando llegue la base de datos)
+.env
