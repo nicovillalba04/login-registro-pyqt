@@ -8,8 +8,10 @@ con clases de Python. Trabajo práctico de Programación II.
 > apto para datos reales.
 
 ## Capturas
-![mejora1](capturas/1.jpg) 
+![mejora1](capturas/1.jpg)
+
 ![mejora2](capturas/2.jpg)
+
 ![mejora3](capturas/3.jpg)
 
 
@@ -60,11 +62,9 @@ Si PowerShell bloquea la activación, ejecutar antes
 - La longitud mínima de la contraseña (8) está escrita una sola vez, en `autenticacion.py`.
 
 **Mejoras visuales**
-Estados del botón principal: Que el botón responda al mouse (`:hover`, `:pressed`, `:disabled`) y se distinga de lo demás
-
-Colores de campos, tarjeta y fondo: Que la tarjeta se distinga del fondo y que el campo activo se vea marcado al escribir.
-
-Mensajes de error y de éxito: Que se distingan sin cambiar el texto en Python: Python dice el tipo, el QSS decide el color
+- **Estados del botón principal** (`:hover`, `:pressed`, `:disabled`): para que el botón responda al mouse y se distinga de lo demás.
+- **Colores de campos, tarjeta y fondo**: para que la tarjeta se distinga del fondo y el campo activo se vea marcado al escribir.
+- **Mensajes de error y de éxito**: Python solo indica el tipo de mensaje y el QSS decide cómo se ve. El texto también dice qué pasó, para no depender solo del color.
 
 
 ## Autores
